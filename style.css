@@ -1,0 +1,82 @@
+:root {
+    --main_fg_color: #422d24;
+    --bg: #EDC4B3;
+    --secondary: #CD9777;
+    --accent: #774936;
+
+    --border-radius: 40px;
+
+    color: var(--main_fg_color);
+    font-size: 24px;
+}
+
+.main_header {
+    color: var(--bg);
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px
+}
+
+.hero {
+    margin: 25px;
+    border-radius: var(--border-radius);
+    padding: 120px;
+    background: var(--main_fg_color);
+}
+
+html {
+    background: var(--bg);
+}
+
+img {
+    max-width: 90vw;
+}
+
+
+
+.counting-system {
+    background: color-mix(in hsl, var(--main_fg_color), transparent 80%);
+    border-radius: var(--border-radius);
+    border-width: 5px;
+    border-color: transparent;
+    border-style: solid;
+    margin: 25px;
+    /*margin-bottom: 5px;*/
+    padding: 30px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.source {
+    opacity: 50%;
+    font-size: 10px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+ol {
+    padding: 20px;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.napier {
+    width: 20vw;
+}
+
+h3 {
+    font-size: 32px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
