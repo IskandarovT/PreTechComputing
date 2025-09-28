@@ -31,7 +31,9 @@ html {
 }
 
 img {
-    max-width: 90vw;
+    max-width: 80vw;
+    display: block;
+    justify-self: center;
 }
 
 
