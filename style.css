@@ -66,9 +66,13 @@ ol {
     padding: 20px;
 }
 
-.flex-horizontal {
+.side-image {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
+    @media (min-width: 1200px) {
+        flex-direction: row;
+    }
 }
 
 .napier {
